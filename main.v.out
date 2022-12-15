@@ -1,0 +1,82 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_0000019a46806600 .scope module, "main" "main" 2 6;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "D";
+    .port_info 1 /OUTPUT 1 "E";
+L_0000019a46806d80 .functor XOR 1, L_0000019a468a0350, L_0000019a468a14d0, C4<0>, C4<0>;
+L_0000019a46806c10 .functor XOR 1, L_0000019a46806d80, L_0000019a4689fdb0, C4<0>, C4<0>;
+L_0000019a468a21c0 .functor XOR 1, L_0000019a46806c10, L_0000019a468a1930, C4<0>, C4<0>;
+L_0000019a468a1f90 .functor XOR 1, L_0000019a468a21c0, L_0000019a468a1570, C4<0>, C4<0>;
+L_0000019a468a1eb0 .functor XOR 1, L_0000019a468a1f90, L_0000019a468a12f0, C4<0>, C4<0>;
+L_0000019a468a1d60 .functor XOR 1, L_0000019a468a1eb0, L_0000019a468a0710, C4<0>, C4<0>;
+L_0000019a468a22a0 .functor XOR 1, L_0000019a468a1d60, L_0000019a468a00d0, C4<0>, C4<0>;
+L_0000019a468a2310 .functor XOR 1, L_0000019a468a22a0, L_0000019a4689fc70, C4<0>, C4<0>;
+L_0000019a468a2230 .functor XOR 1, L_0000019a468a2310, L_0000019a468a03f0, C4<0>, C4<0>;
+L_0000019a468a2380 .functor XOR 1, L_0000019a468a2230, L_0000019a468a17f0, C4<0>, C4<0>;
+L_0000019a468a1cf0 .functor XOR 1, L_0000019a468a2380, L_0000019a468a0ad0, C4<0>, C4<0>;
+L_0000019a468a1f20 .functor XOR 1, L_0000019a468a1cf0, L_0000019a468a0490, C4<0>, C4<0>;
+L_0000019a468a2150 .functor XOR 1, L_0000019a468a1f20, L_0000019a468a0b70, C4<0>, C4<0>;
+L_0000019a468a1c80 .functor XOR 1, L_0000019a468a2150, L_0000019a468a0cb0, C4<0>, C4<0>;
+L_0000019a468a1dd0 .functor XOR 1, L_0000019a468a1c80, L_0000019a468a1610, C4<0>, C4<0>;
+o0000019a46856fb8 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0000019a46846fc0_0 .net "D", 15 0, o0000019a46856fb8;  0 drivers
+v0000019a46847920_0 .net "E", 0 0, L_0000019a468a1dd0;  1 drivers
+v0000019a46846d40_0 .net *"_ivl_1", 0 0, L_0000019a468a0350;  1 drivers
+v0000019a46847060_0 .net *"_ivl_11", 0 0, L_0000019a468a1930;  1 drivers
+v0000019a46847ba0_0 .net *"_ivl_12", 0 0, L_0000019a468a21c0;  1 drivers
+v0000019a46846de0_0 .net *"_ivl_15", 0 0, L_0000019a468a1570;  1 drivers
+v0000019a46847420_0 .net *"_ivl_16", 0 0, L_0000019a468a1f90;  1 drivers
+v0000019a46846f20_0 .net *"_ivl_19", 0 0, L_0000019a468a12f0;  1 drivers
+v0000019a468472e0_0 .net *"_ivl_20", 0 0, L_0000019a468a1eb0;  1 drivers
+v0000019a46847240_0 .net *"_ivl_23", 0 0, L_0000019a468a0710;  1 drivers
+v0000019a46847100_0 .net *"_ivl_24", 0 0, L_0000019a468a1d60;  1 drivers
+v0000019a468a0990_0 .net *"_ivl_27", 0 0, L_0000019a468a00d0;  1 drivers
+v0000019a468a1110_0 .net *"_ivl_28", 0 0, L_0000019a468a22a0;  1 drivers
+v0000019a468a02b0_0 .net *"_ivl_3", 0 0, L_0000019a468a14d0;  1 drivers
+v0000019a468a0210_0 .net *"_ivl_31", 0 0, L_0000019a4689fc70;  1 drivers
+v0000019a468a0f30_0 .net *"_ivl_32", 0 0, L_0000019a468a2310;  1 drivers
+v0000019a468a11b0_0 .net *"_ivl_35", 0 0, L_0000019a468a03f0;  1 drivers
+v0000019a468a1070_0 .net *"_ivl_36", 0 0, L_0000019a468a2230;  1 drivers
+v0000019a468a0df0_0 .net *"_ivl_39", 0 0, L_0000019a468a17f0;  1 drivers
+v0000019a468a0850_0 .net *"_ivl_4", 0 0, L_0000019a46806d80;  1 drivers
+v0000019a468a0a30_0 .net *"_ivl_40", 0 0, L_0000019a468a2380;  1 drivers
+v0000019a468a1390_0 .net *"_ivl_43", 0 0, L_0000019a468a0ad0;  1 drivers
+v0000019a468a0e90_0 .net *"_ivl_44", 0 0, L_0000019a468a1cf0;  1 drivers
+v0000019a468a08f0_0 .net *"_ivl_47", 0 0, L_0000019a468a0490;  1 drivers
+v0000019a468a0d50_0 .net *"_ivl_48", 0 0, L_0000019a468a1f20;  1 drivers
+v0000019a468a0fd0_0 .net *"_ivl_51", 0 0, L_0000019a468a0b70;  1 drivers
+v0000019a468a0030_0 .net *"_ivl_52", 0 0, L_0000019a468a2150;  1 drivers
+v0000019a468a0670_0 .net *"_ivl_55", 0 0, L_0000019a468a0cb0;  1 drivers
+v0000019a4689fd10_0 .net *"_ivl_56", 0 0, L_0000019a468a1c80;  1 drivers
+v0000019a468a1250_0 .net *"_ivl_59", 0 0, L_0000019a468a1610;  1 drivers
+v0000019a468a1430_0 .net *"_ivl_7", 0 0, L_0000019a4689fdb0;  1 drivers
+v0000019a4689fef0_0 .net *"_ivl_8", 0 0, L_0000019a46806c10;  1 drivers
+L_0000019a468a0350 .part o0000019a46856fb8, 0, 1;
+L_0000019a468a14d0 .part o0000019a46856fb8, 1, 1;
+L_0000019a4689fdb0 .part o0000019a46856fb8, 2, 1;
+L_0000019a468a1930 .part o0000019a46856fb8, 3, 1;
+L_0000019a468a1570 .part o0000019a46856fb8, 4, 1;
+L_0000019a468a12f0 .part o0000019a46856fb8, 5, 1;
+L_0000019a468a0710 .part o0000019a46856fb8, 6, 1;
+L_0000019a468a00d0 .part o0000019a46856fb8, 7, 1;
+L_0000019a4689fc70 .part o0000019a46856fb8, 8, 1;
+L_0000019a468a03f0 .part o0000019a46856fb8, 9, 1;
+L_0000019a468a17f0 .part o0000019a46856fb8, 10, 1;
+L_0000019a468a0ad0 .part o0000019a46856fb8, 11, 1;
+L_0000019a468a0490 .part o0000019a46856fb8, 12, 1;
+L_0000019a468a0b70 .part o0000019a46856fb8, 13, 1;
+L_0000019a468a0cb0 .part o0000019a46856fb8, 14, 1;
+L_0000019a468a1610 .part o0000019a46856fb8, 15, 1;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "main.v";

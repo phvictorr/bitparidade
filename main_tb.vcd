@@ -1,0 +1,32 @@
+$date
+	Sat Oct 29 22:01:16 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module main_tb $end
+$var wire 1 ! E $end
+$var reg 16 " D [15:0] $end
+$scope module main1 $end
+$var wire 16 # D [15:0] $end
+$var wire 1 ! E $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1100 #
+b1100 "
+0!
+$end
+#10
+1!
+b1110 "
+b1110 #
+#20
