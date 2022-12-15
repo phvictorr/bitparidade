@@ -1,7 +1,9 @@
 /* Crie um código para calcular o bit de paridade par para um número binário de 16
 bits. O código deve retornar 1 se o total de 1's contido no número é ímpar ou 0
 caso o total de 1's seja par. Crie um testbench para verificar o funcionamento do
-seu código. */
+seu código. 
+
+By: Felipe Victor @phvictorr */
 
 module main(D, E);
     input [15:0] D; // Entrada
